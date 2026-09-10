@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Teacher's Day Gallery</title>
+
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- progress barstle -->
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- font wesome stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+
+
+
+  <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+
+
+</head>
+
+<body>
+  <div class="top_container sub_pages">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo el.png" alt="">
+            <span>
+              SJES
+            </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="about.html"> About </a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="teacher.html"> Teacher </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="celebration.html"> Celebration </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <!-- end header section -->
+
+
+  <!-- gallery section -->
+  <section class="vehicle_section layout_padding">
+    <div class="container">
+      <h2 class="main-heading ">
+        Teacher's Day Celebration
+      </h2>
+      <p class="text-center">
+        Relive the warm moments, heartfelt greetings, and joyful celebrations
+        our pupils and parents shared with us this Teacher's Day.
+      </p>
+      <div class="gallery-grid">
+        <div class="gallery-card gallery-card-large" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="images/q.jpg" alt="Teacher's Day">
+          <div class="gallery-card-overlay"><span class="gallery-badge">1 Photos</span></div>
+        </div>
+        <div class="gallery-card" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="images/w.jpg" alt="Teacher's Day">
+          <div class="gallery-card-overlay"><span class="gallery-badge">1 Photos</span></div>
+        </div>
+        <div class="gallery-card" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="images/e.jpg" alt="Teacher's Day">
+          <div class="gallery-card-overlay"><span class="gallery-badge">1 Photos</span></div>
+        </div>
+        <div class="gallery-card" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="images/r.jpg" alt="Teacher's Day">
+          <div class="gallery-card-overlay"><span class="gallery-badge">1 Photos</span></div>
+        </div>
+        <div class="gallery-card" onclick="openLightbox(this.querySelector('img').src)">
+          <img src="images/t.jpg" alt="Teacher's Day">
+          <div class="gallery-card-overlay"><span class="gallery-badge">1 Photos</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- gallery section -->
+
+  <!-- Lightbox modal -->
+  <div id="imgLightbox" class="img-lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img id="lightboxImg" src="" alt="">
+  </div>
+
+
+ <!-- footer section -->
+<section class="footer_section">
+  <div class="container">
+    <div class="footer_top row">
+      <!-- Logo + School Name -->
+      <div class="col-lg-4 col-md-12 footer_logo-box">
+        <img src="images/logo el.png" alt="St John Elementary School Logo">
+        <h5>ST. JOHN ELEMENTARY SCHOOL</h5>
+      </div>
+
+      <!-- Follow us + Subscribe -->
+      <div class="col-lg-8 col-md-12 footer_social-box">
+        <div class="footer_follow">
+          <h6>Follow us</h6>
+          <div class="footer_social-icons">
+            <!-- From Uiverse.io by mRcOol7, adapted + reused for YouTube and Email -->
+            <div class="social-widget fb-widget">
+              <div class="tooltip-container">
+                <div class="tooltip">
+                  <div class="profile">
+                    <div class="user">
+                      <div class="img">Fb</div>
+                      <div class="details">
+                        <div class="username">@St Jhon Elementary School</div>
+                      </div>
+                    </div>
+                    <div class="about">1k+ Followers</div>
+                  </div>
+                </div>
+                <a class="icon" href="#">
+                  <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="brandSVG">
+                      <svg viewBox="0 0 40 40" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+                        <linearGradient gradientUnits="userSpaceOnUse" gradientTransform="matrix(40 0 0 -39.7778 11115.001 16212.334)" y2="407.5726" y1="406.6018" x2="-277.375" x1="-277.375" id="a">
+                          <stop stop-color="#0062e0" offset="0"></stop>
+                          <stop stop-color="#19afff" offset="1"></stop>
+                        </linearGradient>
+                        <path d="M16.7 39.8C7.2 38.1 0 29.9 0 20 0 9 9 0 20 0s20 9 20 20c0 9.9-7.2 18.1-16.7 19.8l-1.1-.9h-4.4l-1.1.9z" fill="url(#a)"></path>
+                        <path d="m27.8 25.6.9-5.6h-5.3v-3.9c0-1.6.6-2.8 3-2.8H29V8.2c-1.4-.2-3-.4-4.4-.4-4.6 0-7.8 2.8-7.8 7.8V20h-5v5.6h5v14.1c1.1.2 2.2.3 3.3.3 1.1 0 2.2-.1 3.3-.3V25.6h4.4z" fill="#fff"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="fb-text">Facebook</div>
+                </a>
+              </div>
+            </div>
+
+            <div class="social-widget yt-widget">
+              <div class="tooltip-container">
+                <div class="tooltip">
+                  <div class="profile">
+                    <div class="user">
+                      <div class="img">Yt</div>
+                      <div class="details">
+                        <div class="username">@St Jhon Elementary School</div>
+                      </div>
+                    </div>
+                    <div class="about">Watch our videos</div>
+                  </div>
+                </div>
+                <a class="icon" href="#">
+                  <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="brandSVG">
+                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 5v14l11-7z" fill="#fff"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="fb-text">YouTube</div>
+                </a>
+              </div>
+            </div>
+
+            <div class="social-widget mail-widget">
+              <div class="tooltip-container">
+                <div class="tooltip">
+                  <div class="profile">
+                    <div class="user">
+                      <div class="img">@</div>
+                      <div class="details">
+                        <div class="username">stjohnelementary@gmail.com</div>
+                      </div>
+                    </div>
+                    <div class="about">Send us a message</div>
+                  </div>
+                </div>
+                <a class="icon" href="mailto:stjohnelementary@gmail.com">
+                  <div class="layer">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="brandSVG">
+                      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" fill="#fff"></path>
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="fb-text">Email</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer_subscribe">
+          <h6>Subscribe</h6>
+          <form class="footer_subscribe-form d-flex">
+            <input type="email" placeholder="Email">
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <hr class="footer_divider">
+
+    <div class="footer_links row">
+      <!-- Quick Links -->
+      <div class="col-md-6">
+        <h6>QUICK LINKS</h6>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Academics</a></li>
+          <li><a href="teacher.html">Teachers</a></li>
+          <li><a href="register.html">Enroll Now</a></li>
+        </ul>
+      </div>
+
+            <!-- Contact Us -->
+      <div class="col-md-6">
+        <h6>CONTACT US</h6>
+        <ul class="footer_contact-list">
+          <li><i class="fa fa-map-marker"></i> Barangay Dicayas, Dipolog City, Zamboanga del Norte</li>
+          <li><i class="fa fa-phone"></i>0947 551 1541</li>
+          <li><i class="fa fa-envelope"></i> stjohnelementary@gmail.com</li>
+          <li><i class="fa fa-clock-o"></i> Mon.-Fri. : 7:00 am - 5:00 pm</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer_bottom">
+    <p>&copy; 2026 St. John Elementary School. All Rights Reserved.</p>
+  </div>
+</section>
+<!-- end footer section -->
+
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openLightbox(src) {
+      document.getElementById('lightboxImg').src = src;
+      document.getElementById('imgLightbox').style.display = 'flex';
+    }
+    function closeLightbox() {
+      document.getElementById('imgLightbox').style.display = 'none';
+    }
+
+    // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+    // Australia.
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+      });
+
+      var image = 'images/maps-and-flags.png';
+      var beachMarker = new google.maps.Marker({
+        position: {
+          lat: 40.645037,
+          lng: -73.880224
+        },
+        map: map,
+        icon: image
+      });
+    }
+  </script>
+  <!-- google map js -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  </script>
+  <!-- end google map js -->
+</body>
+
+</html>
